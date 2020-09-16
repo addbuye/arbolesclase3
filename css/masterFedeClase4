@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    /*medidas relativas*/
+    grid-template-rows: 100px 100px 300px 50px;
+    /*medidas abolutas*/
+    /*100px 300px 50px*/
+    /*mediadas en fracciones*/
+    /*decidimos cuanto del 100%le damos a cada parte*/
+    gap: 20px;
+}
+.seccion2{
+    display: grid;
+    /*forma basica del repeat*/
+    /*grid-template-columns: 1fr 2fr 1fr 1fr 2fr 3fr;*/
+    /*creando fracciones utilizando el repeat*/
+    grid-template-columns: repeat(3,1fr);
+    background-color: lightpink;
+    gap: 10px;
+    text-align: center; 
+}
+.articulo1{
+    background-color: green;
+}
+.articulo2{
+    background-color: gold;
+}
+.articulo3{
+    background-color: indianred;
+}
+.header{
+    background-color: indigo;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-rows: 100px;
+    gap: 20px;
+}
+.seccion1{
+    background-color: firebrick;
+    width: 50%;
+    height: 200px;
+}
+.footer{
+    background-color: rgba(255, 96, 176, 0.644);
+}
+.logo{
+    background-color: dodgerblue;
+}
+.navbar{
+    background-color: maroon;
+}

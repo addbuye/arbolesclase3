@@ -1,0 +1,76 @@
+* {
+    /*box-sizing: border-box;*/
+}
+
+.container {
+    display: grid;
+    background-color: rgba(247, 99, 168, 0.596);
+    /*veo el tamañp de las distintas secciones, para ver si se me superponen*/
+    grid-template-rows: 100px 200px 300px;
+    gap: 20px;
+    
+    
+}
+.header {
+    background-color: rgba(243, 201, 62, 0.89);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+    background-color: rgba(218, 32, 156, 0.767)
+
+}
+.navbar {
+    background-color: indigo;
+}
+.sectionInicial {
+    display: grid;
+    background-color: rgb(201, 142, 201);
+    /*utilizamos fr */
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: initial;
+    text-align: end;
+    font-weight: bold;
+    gap: 10px;
+    padding: 200px;
+    border:100px solid blueviolet;
+}
+   
+    
+
+.section1 {
+    /*creando fracciones utilizando el repeat
+    grid-template-columns: repeat(3,1fr);*/
+    background-color: rgb(245, 138, 161);
+    width: 50%;
+    text-align: left;
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+.section2 {
+    display: grid;
+    background-color: rgba(230, 190, 117, 0.819);
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: left;
+    align-items: left;
+     
+    }
+.articulo1 {
+    background-color: rgb(114, 149, 224);
+    
+}
+
+.articulo2 { 
+    background-color: rgb(114, 149, 224);
+}
+
+.articulo3 { 
+    background-color: rgb(114, 149, 224);
+}
+
+.footer {
+    background-color: rgb(153, 226, 184);
+}
